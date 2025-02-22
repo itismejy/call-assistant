@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:frontend/backend/generate_first_gemini.dart';
 import 'package:fluttertoast/fluttertoast.dart';
+import 'package:frontend/backend/start_polling_file.dart';
 import 'package:frontend/backend/upload_file.dart';
 
 Future<bool?> showAcceptRejectDialog(BuildContext context, String text) {
@@ -17,7 +18,7 @@ Future<bool?> showAcceptRejectDialog(BuildContext context, String text) {
                 if (callText != null) {
                   Navigator.of(context).pop();
                   Fluttertoast.showToast(msg: "Calling for you!", toastLength: Toast.LENGTH_SHORT, gravity: ToastGravity.BOTTOM, backgroundColor: Colors.black, textColor: Colors.white, fontSize: 16.0);
-                  writeAndUploadText(callText);
+                  await writeAndUploadText(callText);
                 }
               },
               child: const Text("Accept"),

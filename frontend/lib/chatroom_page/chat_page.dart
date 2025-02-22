@@ -3,6 +3,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:frontend/backend/call_gemini.dart';
 import 'package:frontend/backend/show_prompt_dialog.dart';
+import 'package:frontend/backend/start_polling_file.dart';
 import 'package:frontend/chatroom_page/capitalize.dart';
 import 'package:frontend/chatroom_page/chat_timestamp.dart';
 import 'package:frontend/chatroom_page/user_image_widget.dart';
@@ -145,7 +146,8 @@ class ChatPageState extends State<ChatPage> {
                   String? llmResponse = await generateContent(llmMessages);
                   if (llmResponse != null) {
                     print("llmResponse: $llmResponse");
-                    showAcceptRejectDialog(context, llmResponse);
+                    await showAcceptRejectDialog(context, llmResponse);
+                    startPollingFile(context);
                   }
                 },
               ),
