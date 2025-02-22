@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "374277384083",
+    "project_id": "call-assistant-27ff1",
+    "storage_bucket": "call-assistant-27ff1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:374277384083:android:1fcaf2cdc998112e62ea66",
+        "android_client_info": {
+          "package_name": "com.callie.call.assistant"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqDtjwnvQtw7GEanZtmtP5IQ-qQLvk4wA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:374277384083:android:7c97305bb6f5403e62ea66",
+        "android_client_info": {
+          "package_name": "com.example.frontend"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqDtjwnvQtw7GEanZtmtP5IQ-qQLvk4wA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

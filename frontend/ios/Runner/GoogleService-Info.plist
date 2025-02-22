@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyCrT5oCwSMVSQ_8nGP4DXHKZQh8lCoooW4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>374277384083</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.callie.call.assistant</string>
+	<key>PROJECT_ID</key>
+	<string>call-assistant-27ff1</string>
+	<key>STORAGE_BUCKET</key>
+	<string>call-assistant-27ff1.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:374277384083:ios:249cfaf8476608b162ea66</string>
+</dict>
+</plist>
