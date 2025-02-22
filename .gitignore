@@ -70,3 +70,28 @@ node_modules/
 
 # dataconnect generated files
 .dataconnect
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Virtual environment
+venv/
+.venv/
+
+# Editor / IDE configs
+.vscode/
+.idea/
+*.swp
+
+# Mac / Windows system files
+.DS_Store
+Thumbs.db
+
